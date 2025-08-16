@@ -36,7 +36,7 @@ export function Contact() {
                 <div className="flex items-center justify-center space-x-3">
                   <Mail className="h-5 w-5 text-blue-600" />
                   <span className="text-lg font-medium text-gray-900">
-                    example@metacraft.nl
+                    contact.metacraft@gmail.com
                   </span>
                 </div>
               </div>
@@ -46,7 +46,7 @@ export function Contact() {
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
               >
-                <a href="mailto:example@metacraft.nl">
+                <a href="mailto:contact.metacraft@gmail.com">
                   Contact Opnemen
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
