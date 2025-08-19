@@ -2,11 +2,14 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://flxmid.github.io/MetaCraft",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -67,5 +70,8 @@
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
